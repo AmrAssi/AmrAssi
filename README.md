@@ -9,6 +9,7 @@ I work with Windows infrastructure, Microsoft 365, identity services, VMware, mo
 | Project | What it demonstrates |
 | --- | --- |
 | **[Enterprise Home Lab](https://github.com/AmrAssi/Amr-Assi-Portfolio/tree/main/labs/enterprise-home-lab)** | AD DS, DNS, DHCP, Group Policy, network segmentation, two-tier PKI, IIS, hybrid device management, and backup workflows. |
+| **[Administration Scripts](https://github.com/AmrAssi/Amr-Assi-Portfolio/tree/main/tools/admin-scripts)** | RDS session shadowing, AD onboarding from a template, and profile-disk investigation. Public adaptations with fictional examples and isolated tests. |
 | **[Windows Server Health Report](https://github.com/AmrAssi/Amr-Assi-Portfolio/tree/main/tools/server-health-report)** | Read-only PowerShell collection, useful thresholds, clear failure states, HTML/JSON reports, and passing Windows checks. |
 | **[Troubleshooting & Recovery](https://github.com/AmrAssi/Amr-Assi-Portfolio#operations-and-recovery)** | A real Zerto file-recovery case and repeatable lab procedures for GPO, DNS, and recovery verification. |
 
