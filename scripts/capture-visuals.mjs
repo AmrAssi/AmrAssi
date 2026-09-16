@@ -34,6 +34,25 @@ try {
     if (name === 'profile.svg' || name === 'system.svg') await emitImage(name.slice(0,-4), await page.screenshot());
     console.log('PASS header ' + name);
   }
+  for (const name of (await readdir('assets/diagrams')).filter(n => n.endsWith('.svg'))) {
+    const height = name === 'home-lab.svg' ? 760 : 286;
+    await page.setViewportSize({ width: 1200, height });
+    await page.goto(base + '/assets/diagrams/' + name);
+    const faults = await page.evaluate(() => [...document.querySelectorAll('text')].filter(el => {
+      const box = el.getBBox();
+      return box.x < 0 || box.y < 0 || box.x + box.width > 1200 || box.y + box.height > document.documentElement.viewBox.baseVal.height;
+    }).map(el => el.textContent));
+    if (faults.length) throw new Error('Diagram text outside bounds: ' + faults.join(', '));
+    await emitImage(name.slice(0,-4), await page.screenshot());
+    console.log('PASS diagram ' + name);
+  }
+  const nativeDest = path.join(root, '.capture-sites', 'react-native');
+  execFileSync('git', ['clone', '--quiet', '--depth=1', 'https://github.com/AmrAssi/react-native.git', nativeDest], { stdio: 'pipe' });
+  const hook = path.join(nativeDest, 'react-native/client/hooks/useFetch.js');
+  const source = await readFile(hook, 'utf8');
+  if (source.includes('X-RapidAPI-Key')) throw new Error('Provider key header remains in the client');
+  execFileSync('node', ['--check', hook], { stdio: 'pipe' });
+  console.log('PASS mobile hook syntax and removed provider key header');
   for (const repo of ['system', 'sysadmin-prep']) {
     const dest = path.join(root, '.capture-sites', repo);
     execFileSync('git', ['clone', '--quiet', '--depth=1', 'https://github.com/AmrAssi/' + repo + '.git', dest], { stdio: 'pipe' });

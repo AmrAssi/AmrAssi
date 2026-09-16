@@ -3,6 +3,7 @@ on:
   push:
     paths:
       - 'assets/headers/**'
+      - 'assets/diagrams/**'
       - 'scripts/capture-visuals.mjs'
       - '.github/workflows/portfolio-visuals.yml'
   workflow_dispatch:

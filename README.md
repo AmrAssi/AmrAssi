@@ -1,33 +1,58 @@
-# Amr Assi
+![Amr Assi — IT Support Specialist, Systems and Infrastructure](assets/headers/profile.svg)
 
-**IT Support Specialist | Systems & Infrastructure**
+[Portfolio](https://amr-assi-portfolio.pages.dev/) · [LinkedIn](https://www.linkedin.com/in/amr-assi-b13451232/) · [Email](mailto:amr.assi999@gmail.com)
 
-I support Windows infrastructure, Microsoft 365, identity services, virtualization, and file recovery in multi-client IT environments. My focus is practical troubleshooting, reliable operations, and developing toward a System Administrator role.
+I work with Windows infrastructure, Microsoft 365, identity services, VMware, monitoring, and file recovery in multi-client IT environments. I am developing toward a **System Administrator** role through hands-on operations, an enterprise-style home lab, and practical PowerShell projects.
 
-[Portfolio](https://amr-assi-portfolio.pages.dev/) · [LinkedIn](https://www.linkedin.com/in/amr-assi-b13451232/)
+## Systems work
 
-## Selected work
-
-| Project | What you can explore |
+| Project | What it demonstrates |
 | --- | --- |
-| [Enterprise Home Lab](https://github.com/AmrAssi/Amr-Assi-Portfolio/tree/main/labs/enterprise-home-lab) | Windows infrastructure, network segmentation, two-tier PKI, hybrid device management, and a logical architecture diagram. |
-| [Windows Server Health Report](https://github.com/AmrAssi/Amr-Assi-Portfolio/tree/main/tools/server-health-report) | A PowerShell tool that reports memory use, disk space, and selected service states in HTML and JSON. |
-| [Troubleshooting runbooks](https://github.com/AmrAssi/Amr-Assi-Portfolio/tree/main/labs/enterprise-home-lab/docs/troubleshooting) | Repeatable investigation procedures for Group Policy, DNS, and file recovery. |
+| **[Enterprise Home Lab](https://github.com/AmrAssi/Amr-Assi-Portfolio/tree/main/labs/enterprise-home-lab)** | AD DS, DNS, DHCP, Group Policy, network segmentation, two-tier PKI, IIS, hybrid device management, and backup workflows. |
+| **[Windows Server Health Report](https://github.com/AmrAssi/Amr-Assi-Portfolio/tree/main/tools/server-health-report)** | Read-only PowerShell collection, useful thresholds, clear failure states, HTML/JSON reports, and passing Windows checks. |
+| **[Troubleshooting & Recovery](https://github.com/AmrAssi/Amr-Assi-Portfolio#operations-and-recovery)** | A real Zerto file-recovery case and repeatable lab procedures for GPO, DNS, and recovery verification. |
 
-## Hands-on experience
+## Hands-on responsibilities
 
-- **Windows and identity:** Active Directory, Group Policy, Entra ID, Intune, and file permissions.
-- **Virtualization:** VMware vCenter and ESXi operations, resource checks, terminal-server cloning, and vMotion before host maintenance.
-- **Microsoft 365 and security:** Exchange, SharePoint, email filtering, and endpoint security operations.
-- **Recovery and monitoring:** file recovery using Veeam, Zerto, and Shadow Copies; infrastructure monitoring with Zabbix.
-- **Endpoint deployment:** personally prepared more than 300 computers for 150 branches during a Windows 11 project, including imaging, domain join, applications, IP/DNS settings, peripherals, and functional checks.
+| Area | Practical work |
+| --- | --- |
+| **Windows & identity** | Active Directory, GPO, file permissions, Entra ID, and Intune. |
+| **Virtualization** | vCenter/ESXi operations, resource checks, terminal-server cloning, vMotion for host maintenance, and approved RAM/storage expansion. |
+| **Microsoft 365 & security** | Exchange, SharePoint, email filtering, Microsoft Defender policies, and endpoint-security operations. |
+| **Recovery & monitoring** | File recovery with Veeam, Zerto, and Shadow Copies; infrastructure monitoring with Zabbix. |
+| **Endpoint deployment** | Personally prepared **300+ computers for 150 branches**: imaging, domain join, applications, network settings, peripherals, and final checks. |
 
-## Enterprise Home Lab
+**At Matrix:** Computer & Systems Technician, January 2024–July 2025 → internal promotion to IT Support Specialist, July 2025–present.
 
-More than 300 hours building and troubleshooting an ESXi lab with AD DS, DNS, DHCP, Group Policy, pfSense, two-tier PKI, IIS, Entra ID, Intune, and Veeam.
+## Systems learning projects
 
-The project documentation distinguishes the existing environment from exercises awaiting a recorded lab run.
+<table>
+<tr>
+<td width="50%">
+<a href="https://github.com/AmrAssi/system"><img src="assets/screenshots/system-desktop.png" alt="Actual SysAdmin Course interface in Hebrew" width="100%"></a>
+<h3><a href="https://github.com/AmrAssi/system">SysAdmin Learning Lab</a></h3>
+22 modules covering Windows, identity, networking, virtualization, recovery, and troubleshooting. Hebrew RTL, diagrams, quizzes, and study progress.
+</td>
+<td width="50%">
+<a href="https://github.com/AmrAssi/sysadmin-prep"><img src="assets/screenshots/sysadmin-prep-desktop.png" alt="Actual SysAdmin Prep interface in Hebrew" width="100%"></a>
+<h3><a href="https://github.com/AmrAssi/sysadmin-prep">SysAdmin Prep</a></h3>
+Flashcards, practice questions, mock exams, and targeted review with progress stored in the browser.
+</td>
+</tr>
+</table>
 
-## Languages
+These are learning resources. Professional experience and completed lab validation are documented separately.
 
-Arabic — Native · Hebrew — Fluent · English — Advanced
+## Additional projects
+
+| Repository | Focus |
+| --- | --- |
+| [AnonMAC](https://github.com/AmrAssi/AnonMAC) | Python and Linux network-interface configuration. |
+| [WebPathScraper](https://github.com/AmrAssi/WebPathScraper) | Python, HTTP requests, HTML parsing, and downloads. |
+| [Course Catalog](https://github.com/AmrAssi/my-react-project) | Earlier React/Firebase web application prototype. |
+| [Movie App](https://github.com/AmrAssi/react-native) | Earlier React Native/Expo client and Express/MongoDB backend prototype. |
+| [React Workspace](https://github.com/AmrAssi/react) | Learning workspace; no application source currently present. |
+
+**Languages:** Arabic — Native · Hebrew — Fluent · English — Advanced
+
+<sub>Architecture diagrams describe the lab. Screenshots show the actual learning applications. Test claims link to recorded results.</sub>
