@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 248" role="img" aria-labelledby="title desc">
+<title id="title">WebPathScraper</title><desc id="desc">HTTP · HTML parsing · File downloads</desc>
+<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#0b1527"/><stop offset="1" stop-color="#122a40"/></linearGradient><pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#36566e" stroke-width="1" opacity=".2"/></pattern></defs>
+<rect width="1200" height="248" rx="18" fill="url(#bg)"/><rect x="740" width="460" height="248" fill="url(#grid)"/>
+<rect x="48" y="48" width="36" height="4" rx="2" fill="#4bdbc5"/>
+<text x="100" y="55" fill="#83c2d4" font-family="Arial,sans-serif" font-size="14" letter-spacing="2">AMR ASSI / PYTHON EXERCISE</text>
+<text x="48" y="119" fill="#f2f6fb" font-family="Arial,sans-serif" font-size="44" font-weight="700">WebPathScraper</text>
+<text x="50" y="158" fill="#b8cadc" font-family="Arial,sans-serif" font-size="21">HTTP · HTML parsing · File downloads</text>
+<text x="50" y="212" fill="#749bb2" font-family="Arial,sans-serif" font-size="14" letter-spacing="1.5">WINDOWS · IDENTITY · NETWORKS · OPERATIONS</text>
+<g transform="translate(826 37)" fill="none" stroke="#3b627b" stroke-width="2">
+<path d="M60 44H166V127H252M60 44V127H166"/><rect x="2" y="16" width="116" height="60" rx="10" fill="#152b3f"/><rect x="118" y="99" width="116" height="60" rx="10" fill="#152b3f"/>
+<circle cx="60" cy="127" r="19" fill="#123f44" stroke="#4bdbc5"/><path d="M51 126l6 7 12-15" stroke="#80eddb"/>
+<g stroke="#96b4c8"><rect x="27" y="32" width="65" height="11" rx="3"/><rect x="27" y="49" width="65" height="11" rx="3"/><path d="M147 137v-16m15 16v-25m15 25v-12m15 12v-31"/></g>
+<circle cx="82" cy="38" r="2" fill="#4bdbc5" stroke="none"/><circle cx="82" cy="55" r="2" fill="#4bdbc5" stroke="none"/>
+<circle cx="253" cy="127" r="6" fill="#4bdbc5" stroke="none"/><circle cx="166" cy="44" r="5" fill="#739ebc" stroke="none"/>
+</g></svg>
